@@ -18,15 +18,38 @@
 
 - 결론적으로 입문자들에게 조금 더 흥미롭고 도움이 되어 다른 제품들과는 차별점을 둔다고 생각함.
 
-### 3. 프로젝트 과정  
+### 3. 데이터 수집 과정
 
-- Water-Net, CSAM을 통한 이미지 전처리 후 객체탐지 진행으로 구상 
+- pytube, selenium을 통해 데이터 수집 후 라벨링 진행
+
+<img src="https://user-images.githubusercontent.com/102225200/197954799-db44f116-8cbc-43f4-9c69-a3c7a80802c1.png" width="600">
+
+- 데이터 수집 및 라벨링 시간이 부족하여 모델링 훈련 및 테스트는 roboflow에서 사용(https://universe.roboflow.com/maeo/maeo)
+
+<img src="https://user-images.githubusercontent.com/102225200/197955087-fcdf9435-1e5f-4ee3-afb1-15db2d041bf1.png" width="600">
+
+
+
+### 4. 프로젝트 과정  
+
+- 프로젝트 과정을 구상하기 위에 다양한 논문 중에 구현 가능할것으로 보이는 것을 참고(참고 논문 : Underwater Species Detection using Channel Sharpening Attention)
+
+- Water-Net, CSAM을 통한 이미지 전처리 후 객체탐지 진행으로 구상
 
 <img src="https://user-images.githubusercontent.com/102225200/197946461-0c7bc212-4fd9-4fe5-b7c3-5fc6dadc8106.png" width="600">
 
-- Water-Net
+- Water-Net을 통해 이미지의 GC(gamma correction), WB(white balance), HE(histogram equalization) 개선
 
 <img src="https://user-images.githubusercontent.com/102225200/197948857-0489c21b-9714-43c1-85fa-2edb25f87b71.gif" width="600">
+
+- Water-Net의 문제점 -> 센터의 물체는 오히려 대비가 좋아졌지만 뒤에 있는 물체는 오히려 대비가 적어져 분간하기가 어려움
+
+
+<img src="https://user-images.githubusercontent.com/102225200/197956383-418f372e-fe1c-44bb-99da-7d2f0458607e.png" width="600">
+
+<sub> 위 : 적용 전,  아래 : 적용 후</sub>
+
+
 
 
 - CSAM구현 못함 -> 대안방법 시도
@@ -38,7 +61,7 @@
 
 
 
-### 4. 프로젝트 결과  
+### 5. 프로젝트 결과  
 
 <img src="https://user-images.githubusercontent.com/102225200/197946615-fd170e38-a4b2-44f5-b497-bfade89dab5c.png" width="600">
 
@@ -56,13 +79,11 @@
 - 이미지 테스트결과 전처리 전에는 탐지못하거나 다른객체로 인식하는걸 제대로 인식함.
 
 
-### 5. 잘 한 점, 만족한 점 
+### 6. 회고 및 느낀점
 
 - 이미지 전처리를 통해 성능이 향상됨
 
 - 테스트를 통해 문제점이 왜 그런이유가 발생했는지 분석
-
-### 6. 아쉬운 점, 한계점
 
 - 이미지 전처리단계에서 CSAM을 구현 못하였고 대안책으로 제시한 2가지 방법모두 성능이 떨어짐.
 

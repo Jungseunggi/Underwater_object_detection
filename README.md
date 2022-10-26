@@ -20,6 +20,8 @@
 
 ### 3. 데이터 수집 과정
 
+- 카테고리 선정 참고 사이트(https://www.diverbliss.com/marine-life-in-the-philippines/)
+
 - pytube, selenium을 통해 데이터 수집 후 라벨링 진행
 
 <img src="https://user-images.githubusercontent.com/102225200/197954799-db44f116-8cbc-43f4-9c69-a3c7a80802c1.png" width="600">

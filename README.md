@@ -21,8 +21,14 @@
 #### 3. 프로젝트 과정  
 
 - Water-Net, CSAM을 통한 이미지 전처리 후 객체탐지 진행으로 구상 
+![image](https://user-images.githubusercontent.com/102225200/197946461-0c7bc212-4fd9-4fe5-b7c3-5fc6dadc8106.png)
+
+-
+
 
 #### 4. 프로젝트 결과  
+![image](https://user-images.githubusercontent.com/102225200/197946615-fd170e38-a4b2-44f5-b497-bfade89dab5c.png)
+
 
 - 큰 차이는 없지만 이미지 전처리를 한 후 mAP가 조금 더 높은 것을 확인.
 
@@ -30,7 +36,10 @@
 
 - CSAM대안으로 제시한 OpenCV sharpen 기능은 결과가 더 안좋아짐.
 
+
+
 - 이미지 테스트결과 전처리 전에는 탐지못하거나 다른객체로 인식하는걸 제대로 인식함.
+
 
 #### 5. 잘 한 점, 만족한 점 
 

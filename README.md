@@ -18,7 +18,10 @@
 
 - 결론적으로 입문자들에게 조금 더 흥미롭고 도움이 되어 다른 제품들과는 차별점을 둔다고 생각함.
 
-### 3. 데이터 수집 과정
+
+### 3. 프로젝트 과정  
+
+#### 3.1 데이터 수집과정
 
 - 카테고리 선정 참고 사이트(https://www.diverbliss.com/marine-life-in-the-philippines/)
 
@@ -30,9 +33,7 @@
 
 <img src="https://user-images.githubusercontent.com/102225200/197955087-fcdf9435-1e5f-4ee3-afb1-15db2d041bf1.png" width="600">
 
-
-
-### 4. 프로젝트 과정  
+#### 3.2 모델 구현 과정
 
 - 프로젝트 과정을 구상하기 위에 다양한 논문 중에 구현 가능할것으로 보이는 것을 참고(참고 논문 : Underwater Species Detection using Channel Sharpening Attention)
 
@@ -63,7 +64,7 @@
 
 
 
-### 5. 프로젝트 결과  
+### 4. 프로젝트 결과  
 
 <img src="https://user-images.githubusercontent.com/102225200/197946615-fd170e38-a4b2-44f5-b497-bfade89dab5c.png" width="600">
 
@@ -81,7 +82,7 @@
 - 이미지 테스트결과 전처리 전에는 탐지못하거나 다른객체로 인식하는걸 제대로 인식함.
 
 
-### 6. 회고 및 느낀점
+### 5. 회고 및 느낀점
 
 - 이미지 전처리를 통해 성능이 향상됨
 

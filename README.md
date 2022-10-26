@@ -52,6 +52,7 @@
 
 
 <img src="https://user-images.githubusercontent.com/102225200/197950167-706f1eea-de65-4c61-9094-fc2b355c427e.png" width="600">
+
 - 이미지 테스트결과 전처리 전에는 탐지못하거나 다른객체로 인식하는걸 제대로 인식함.
 
 
